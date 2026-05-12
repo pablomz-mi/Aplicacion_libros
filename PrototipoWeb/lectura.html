@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pantalla de lectura</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header class="cabecera cabecera-secundaria">
+    <a class="volver" href="index.html">← Inicio</a>
+    <div>
+      <h1>La llamada de lo salvaje</h1>
+      <p>Lectura con progreso guardado automáticamente</p>
+    </div>
+  </header>
+
+  <main class="contenedor-lectura">
+
+    <section class="progreso">
+      <div class="fila-progreso">
+        <span>Progreso de lectura</span>
+        <strong>42%</strong>
+      </div>
+
+      <div class="barra-progreso">
+        <div></div>
+      </div>
+
+      <p class="mensaje-feedback">
+        Progreso guardado. La próxima vez podrás continuar desde este punto.
+      </p>
+    </section>
+
+    <article class="lector">
+      <h2>Capítulo 3</h2>
+
+      <p>
+        Buck no leía los periódicos, o habría sabido que se avecinaban problemas no solo para él,
+        sino para todos los perros fuertes de pelo largo que vivían en la costa.
+      </p>
+
+      <p>
+        Esta pantalla representa la experiencia de lectura dentro del prototipo. El contenido se
+        presenta de forma clara y el usuario dispone de un indicador de progreso visible.
+      </p>
+
+      <p>
+        La finalidad de esta interfaz es resolver el principal problema detectado en el test:
+        la dificultad para retomar la lectura desde el punto exacto donde se dejó.
+      </p>
+    </article>
+
+    <nav class="acciones-lectura">
+      <a class="boton-secundario" href="historial.html">Ver historial</a>
+      <a class="boton-principal" href="index.html">Guardar y salir</a>
+    </nav>
+
+  </main>
+
+</body>
+</html>

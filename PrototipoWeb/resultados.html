@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resultados de búsqueda</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header class="cabecera cabecera-secundaria">
+    <a class="volver" href="index.html">← Inicio</a>
+    <div>
+      <h1>Resultados de búsqueda</h1>
+      <p>Resultados organizados para reducir el exceso de información.</p>
+    </div>
+  </header>
+
+  <main class="contenedor distribucion">
+
+    <aside class="filtros">
+      <h2>Filtros</h2>
+
+      <label for="idioma">Idioma</label>
+      <select id="idioma">
+        <option>Español</option>
+        <option>Inglés</option>
+        <option>Francés</option>
+      </select>
+
+      <label for="genero">Género</label>
+      <select id="genero">
+        <option>Aventura</option>
+        <option>Suspense</option>
+        <option>Novela histórica</option>
+        <option>Clásicos</option>
+      </select>
+
+      <label for="formato">Formato</label>
+      <select id="formato">
+        <option>Leer online</option>
+        <option>EPUB</option>
+        <option>Kindle</option>
+        <option>PDF</option>
+      </select>
+
+      <a class="boton-secundario" href="resultados.html">Aplicar filtros</a>
+    </aside>
+
+    <section class="resultados">
+      <h2>Libros encontrados</h2>
+      <p class="texto-ayuda">Se muestra la información principal: título, autor, idioma y formato recomendado.</p>
+
+      <article class="resultado">
+        <div>
+          <h3>La llamada de lo salvaje</h3>
+          <p>Jack London</p>
+          <div class="metadatos">
+            <span>Idioma: Español</span>
+            <span>Género: Aventura</span>
+            <span>Formato: Leer online</span>
+          </div>
+        </div>
+        <a class="boton-principal" href="libro.html">Ver libro</a>
+      </article>
+
+      <article class="resultado">
+        <div>
+          <h3>El extraño caso del Dr. Jekyll y Mr. Hyde</h3>
+          <p>Robert Louis Stevenson</p>
+          <div class="metadatos">
+            <span>Idioma: Español</span>
+            <span>Género: Suspense</span>
+            <span>Formato: EPUB</span>
+          </div>
+        </div>
+        <a class="boton-principal" href="libro.html">Ver libro</a>
+      </article>
+
+      <article class="resultado">
+        <div>
+          <h3>Frankenstein</h3>
+          <p>Mary Shelley</p>
+          <div class="metadatos">
+            <span>Idioma: Inglés</span>
+            <span>Género: Clásico</span>
+            <span>Formato: Leer online</span>
+          </div>
+        </div>
+        <a class="boton-principal" href="libro.html">Ver libro</a>
+      </article>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
